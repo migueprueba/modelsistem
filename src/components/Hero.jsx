@@ -5,7 +5,7 @@ export default function Hero() {
   const [activeKPI, setActiveKPI] = useState('ventas');
   const [animate, setAnimate] = useState(false);
 
-  const whatsappLink = "https://api.whatsapp.com/send?phone=584120000000&text=Hola%20ModelSistem,%20quiero%20solicitar%20una%20demostración%20sin%20costo%20del%20ERP.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=584120000000&text=Hola%20ModelSistem,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20ERP%20y%20la%20promoci%C3%B3n%20de%20instalaci%C3%B3n%20t%C3%A9cnica%20gratuita.";
 
   // Trigger animation when active KPI changes
   useEffect(() => {
@@ -74,7 +74,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Solicitar Demostración Sin Costo
+                Con tu licencia la instalación técnica queda gratis
                 <Play className="w-4 h-4 fill-current transition-transform group-hover:translate-x-1" />
               </a>
               <a 

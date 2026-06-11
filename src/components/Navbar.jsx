@@ -12,7 +12,7 @@ export default function Navbar() {
     { name: 'Contacto', href: '#contacto' }
   ];
 
-  const whatsappLink = "https://api.whatsapp.com/send?phone=584120000000&text=Hola%20ModelSistem,%20quiero%20solicitar%20una%20demostración%20sin%20costo%20del%20ERP.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=584120000000&text=Hola%20ModelSistem,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20ERP%20y%20la%20promoci%C3%B3n%20de%20instalaci%C3%B3n%20t%C3%A9cnica%20gratuita.";
 
   return (
     <header className="bg-white/95 backdrop-blur-md fixed top-0 w-full z-50 border-b border-border-light shadow-sm transition-all duration-200 ease-in-out">
@@ -43,7 +43,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="bg-brand-green hover:bg-[#0ea371] text-white text-sm font-medium px-5 py-2.5 rounded-lg shadow-sm hover:shadow transition-all duration-200"
           >
-            Demo Gratis
+            Contáctenos
           </a>
         </div>
 
@@ -77,7 +77,7 @@ export default function Navbar() {
             className="bg-brand-green hover:bg-[#0ea371] text-white text-sm font-medium py-3 rounded-lg text-center shadow transition-all duration-200"
             onClick={() => setIsOpen(false)}
           >
-            Solicitar Demo
+            Contáctenos
           </a>
         </nav>
       )}
