@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Logo & Copyright */}
           <div className="flex flex-col gap-4 col-span-1 md:col-span-2">
             <div className="flex items-center gap-2.5 font-bold text-white text-xl">
-              <img src="/logo.png" alt="ModelSistem Logo" className="h-8 w-8 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="ModelSistem Logo" className="h-8 w-8 object-contain" />
               <span>ModelSistem</span>
             </div>
             <p className="text-sm text-surface-variant max-w-sm leading-relaxed">
