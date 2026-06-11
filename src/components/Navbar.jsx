@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Cpu } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +17,8 @@ export default function Navbar() {
   return (
     <header className="bg-white/95 backdrop-blur-md fixed top-0 w-full z-50 border-b border-border-light shadow-sm transition-all duration-200 ease-in-out">
       <div className="flex justify-between items-center px-6 md:px-margin-desktop h-20 max-w-container-max mx-auto">
-        <div className="flex items-center gap-2 font-bold text-primary text-xl tracking-tight">
-          <Cpu className="w-8 h-8 text-tech-cyan" />
+        <div className="flex items-center gap-2.5 font-bold text-primary text-xl tracking-tight">
+          <img src="/logo.png" alt="ModelSistem Logo" className="h-10 w-10 object-contain" />
           <span>ModelSistem</span>
         </div>
         
