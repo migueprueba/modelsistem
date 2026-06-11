@@ -5,7 +5,7 @@ export default function Hero() {
   const [activeKPI, setActiveKPI] = useState('ventas');
   const [animate, setAnimate] = useState(false);
 
-  const whatsappLink = "https://api.whatsapp.com/send?phone=584120000000&text=Hola%20ModelSistem,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20ERP%20y%20la%20promoci%C3%B3n%20de%20instalaci%C3%B3n%20t%C3%A9cnica%20gratuita.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=584122547588&text=Hola%20ModelSistem,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20ERP%20y%20la%20promoci%C3%B3n%20de%20instalaci%C3%B3n%20t%C3%A9cnica%20gratuita.";
 
   // Trigger animation when active KPI changes
   useEffect(() => {
@@ -54,9 +54,14 @@ export default function Hero() {
           
           {/* Hero Content */}
           <div className="col-span-1 lg:col-span-6 flex flex-col gap-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-tech-cyan/10 border border-tech-cyan/20 text-tech-cyan text-xs font-semibold self-start tracking-wide uppercase">
-              <span className="w-2 h-2 rounded-full bg-tech-cyan animate-pulse"></span>
-              ERP Homologado y Multimoneda
+            <div className="inline-flex items-center gap-4 px-5 py-3 rounded-2xl bg-white/5 border border-white/10 text-white self-start shadow-xl backdrop-blur-sm hover:border-white/20 transition-all duration-300">
+              <div className="bg-white/95 rounded-lg p-1.5 flex items-center justify-center shadow-md">
+                <img src={`${import.meta.env.BASE_URL}seniat.png`} alt="SENIAT Logo" className="h-8 md:h-10 w-auto object-contain" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xs font-extrabold tracking-wider uppercase text-tech-cyan">ERP Homologado</span>
+                <span className="text-sm font-semibold text-secondary-container">Cumplimiento Legal y Multimoneda</span>
+              </div>
             </div>
             
             <h1 className="font-bold text-4xl md:text-5xl lg:text-5xl text-white tracking-tight leading-tight">

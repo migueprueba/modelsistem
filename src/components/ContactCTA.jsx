@@ -2,7 +2,7 @@ import React from 'react';
 import { MessageSquareCode } from 'lucide-react';
 
 export default function ContactCTA() {
-  const whatsappLink = "https://api.whatsapp.com/send?phone=584120000000&text=Hola%20ModelSistem,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20ERP%20y%20la%20promoci%C3%B3n%20de%20instalaci%C3%B3n%20t%C3%A9cnica%20gratuita.";
+  const whatsappLink = "https://api.whatsapp.com/send?phone=584122547588&text=Hola%20ModelSistem,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20ERP%20y%20la%20promoci%C3%B3n%20de%20instalaci%C3%B3n%20t%C3%A9cnica%20gratuita.";
 
   return (
     <section id="contacto" className="max-w-container-max mx-auto px-6 md:px-margin-desktop py-20 scroll-mt-28">
